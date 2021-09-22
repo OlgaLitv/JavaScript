@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>task 4</title>
+</head>
+<body>
+    <script>
+        /* Реализовать основные 4 арифметические операции (+, -, /, *) в виде функций с двумя параметрами.
+          Т.е. например, функция для сложения должна принимать два числа, складывать их и возвращать результат.
+          Обязательно использовать оператор return. */
+
+          function summa(num1, num2) {
+              return (+num1 + +num2);
+            }
+
+          function minus(num1, num2) {
+              return (+num1 - +num2);
+            }
+
+          function division(num1, num2) {
+              if (+num2)
+                  return (+num1 / +num2);
+              else return undefined;
+            }
+
+          function multiplication(num1, num2) {
+              return (+num1 * +num2);
+            }
+
+          alert(summa(3, "6"));
+          alert(minus(3, "6"));
+          alert(division(3, "0"));
+          alert(multiplication(3, "0"));
+    </script>
+</body>
+</html>
