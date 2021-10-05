@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>task 1</title>
+</head>
+<body>
+    <script>
+        /* С помощью цикла for написать алгоритм для вывода чисел (выводите в консоль, с помощью console.log)
+        от 0 до 10 включительно, чтобы результат выглядел так:
+            0 – это ноль
+            1 – нечетное число
+            2 – четное число
+            3 – нечетное число
+            10 – четное число */
+
+
+        for (step = 0; step < 11; step++){
+            if (step == 0)
+                console.log('0 - это ноль');
+            else if (step % 2 == 0)
+                console.log(step + ' - четное число');
+            else
+                console.log(step + ' - нечетное число');
+        }
+    </script>
+
+</body>
+</html>
